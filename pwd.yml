@@ -83,7 +83,7 @@ services:
   db:
     image: mariadb:10.6
     networks:
-      - flens_network
+      - ferp_network
     healthcheck:
       test: mysqladmin ping -h localhost --password=admin
       interval: 1s
