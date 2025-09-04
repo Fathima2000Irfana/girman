@@ -1,0 +1,11 @@
+{
+  "name": "Hiring Manager",
+  "docstatus": 0,
+  "idx": 0,
+  "role_name": "Hiring Manager",
+  "disabled": 0,
+  "is_custom": 0,
+  "desk_access": 1,
+  "two_factor_auth": 0,
+  "doctype": "Role"
+}

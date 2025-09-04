@@ -1,0 +1,31 @@
+{
+  "name": "HR Dashboard",
+  "docstatus": 0,
+  "idx": 2,
+  "dashboard_name": "HR Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "doctype": "Dashboard",
+  "charts": [
+    {
+      "docstatus": 0,
+      "idx": 1,
+      "width": "Half",
+      "parent": "HR Dashboard",
+      "parentfield": "charts",
+      "parenttype": "Dashboard",
+      "doctype": "Dashboard Chart Link"
+    },
+    {
+      "docstatus": 0,
+      "idx": 2,
+      "chart": "Applicants by Source",
+      "width": "Half",
+      "parent": "HR Dashboard",
+      "parentfield": "charts",
+      "parenttype": "Dashboard",
+      "doctype": "Dashboard Chart Link"
+    }
+  ],
+  "cards": []
+}
