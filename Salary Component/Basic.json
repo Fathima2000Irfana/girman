@@ -1,0 +1,42 @@
+{
+  "name": "Basic",
+  "docstatus": 0,
+  "idx": 2,
+  "salary_component": "Basic",
+  "salary_component_abbr": "B",
+  "type": "Earning",
+  "description": "Basic",
+  "component_type": "",
+  "depends_on_payment_days": 1,
+  "is_tax_applicable": 1,
+  "deduct_full_tax_on_selected_payroll_date": 0,
+  "variable_based_on_taxable_salary": 0,
+  "is_income_tax_component": 0,
+  "exempted_from_income_tax": 0,
+  "round_to_the_nearest_integer": 0,
+  "statistical_component": 0,
+  "do_not_include_in_total": 0,
+  "remove_if_zero_valued": 1,
+  "disabled": 0,
+  "amount": 0,
+  "amount_based_on_formula": 1,
+  "formula": "base * 1",
+  "is_flexible_benefit": 0,
+  "max_benefit_amount": 0,
+  "pay_against_benefit_claim": 0,
+  "only_tax_impact": 0,
+  "create_separate_payment_entry_against_benefit_claim": 0,
+  "doctype": "Salary Component",
+  "accounts": [
+    {
+      "docstatus": 0,
+      "idx": 1,
+      "company": "Girman Technologies (Demo)",
+      "account": "Basic - GTD",
+      "parent": "Basic",
+      "parentfield": "accounts",
+      "parenttype": "Salary Component",
+      "doctype": "Salary Component Account"
+    }
+  ]
+}
