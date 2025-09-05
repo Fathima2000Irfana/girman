@@ -2,7 +2,7 @@
 set -e
 
 # Step 1: Get the container ID
-CONTAINER_ID=$(docker ps --filter "name=girma_backend" --format "{{.ID}}")
+CONTAINER_ID=$(docker ps --filter "name=ferp-backend-1" --format "{{.ID}}")
 
 if [ -z "$CONTAINER_ID" ]; then
   echo "❌ No container found with name containing 'girma_backend'"
