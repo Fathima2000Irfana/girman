@@ -42,7 +42,7 @@ Follow these steps to run ERPNext + Frappe HR in a GitHub Codespace:
      ```
 
 5. **Login**
-   - Refresh the browser — the ERPNext login page will be ready to use
+   - Refresh the browser — now you are ready to assess my assignment
    ![Landing Page](./docs/landing.png)
 
 ---
